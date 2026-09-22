@@ -1,0 +1,92 @@
+<!DOCTYPE html><!--Define el documento como html-->
+<html lang="en"><!--es el lenguaje estándar utilizado para estructurar-->
+<head><!--Encabezado-->
+    <meta charset="UTF-8"><!--Sirve para mostrar caracteres variados-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sirve para mostrar la pagina en celulares-->
+    <title>Tipos de listas en HTML</title><!--sirve para hacer que una página web sea responsiva-->
+</head><!--Cierra en cabezado-->
+<body><!--El cuerpo de la página-->
+    <h1>Tipos de listas</h1><!--El titulo mas grande-->
+    <h2>Listas ordenadas</h2><!--El titulo mas pequeño que h1-->
+    <p>Una lista ordenada es una serie de elementos los cuales 
+        tendran una numeracion de acuerdo al numeros de elementos.<!--Es el texto que mostrara un parrafo-->
+    </p><!--Cierra el apartado para el texto de parrafo-->
+    <ol> <!--Sirve para agrupar una serie de elementos donde el orden numérico o secuencial es importante-->
+        <li>Luna Arias </li>
+        <li>Franco Andrea</li>
+        <li>Granados Evelyn</li>
+    </ol> <!--cierre de una lista ordenada-->
+
+    <h2>Listas no ordenadas</h2><!--El titulo mas pequeño que h1-->
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
+        de cada item sino un pequeño elemento grafico <!--Es el texto que mostrara un parrafo-->
+    </p><!--Cierra el apartado para el texto de parrafo-->
+    <ul><!--Se utiliza cuando tienes una serie de elementos en los que el orden no importa-->
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+    </ul>cierre de una lista no ordenada
+
+    <h2>Lista de definiciones</h2>
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p>
+    <!-- <dl> define la lista de descripciones/definiciones -->
+    <dl>
+        <!-- <dt> especifica el término o concepto -->
+        <dt>C++</dt>
+        <!-- <dd> proporciona la definición o descripción del término -->
+        <dd>
+            Es un lenguaje de programacion, diseñado a mediados de los años
+            1980 como extension del lenguaje de programacion C.
+        </dd>
+
+        <dt>Java</dt>
+        <dd>
+            Es un lenguaje de programacion orientado a objetos desarrollado
+            por Sun Microsystem a principios de los 90.
+        </dd>
+
+        <dt>JavaScript</dt>
+        <dd>
+            Es un lenguaje interpretado, es decir que no requiere compilacion,
+            utilizado principalmente en paginas web, con una sintaxis similar
+            al lenguaje de programacion C.
+        </dd>
+    </dl>
+
+    <!-- Sección de Listas Anidadas -->
+    <h2>Listas anidadas</h2>
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden
+        anidar diferentes tipos de lista de acuerdo al requerimiento
+    </p>
+    <!-- Lista ordenada principal (<ol>) -->
+    <ol>
+        <!-- Primer elemento de la lista principal -->
+        <li>Argentina
+            <!-- Lista no ordenada (<ul>) anidada dentro del primer <li> -->
+            <ul>
+                <li>Buenos aires</li>
+                <li>La plata</li>
+                <li>Mendoza</li>
+            </ul>
+        </li>
+        <!-- Segundo elemento principal -->
+        <li>España
+            <!-- Lista anidada del segundo elemento -->
+            <ul>
+                <li>Barcelona</li>
+                <li>Madrid</li>
+                <li>Sevilla</li>
+            </ul>
+        </li>
+        <!-- Tercer elemento principal -->
+        <li>Mexico
+            <!-- Lista anidada del tercer elemento -->
+            <ul>
+                <li>Chihuahua</li>
+                <li>Cd. Juarez</li>
+                <li>Hermosillo</li>
+            </ul>
+        </li>
+    </ol>
+</body><!--Cierra el cuerpo de la pagina-->
+</html><!--Cierra lo que se ve en pantalla-->
