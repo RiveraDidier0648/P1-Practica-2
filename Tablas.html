@@ -1,0 +1,103 @@
+<!DOCTYPE html> <!--Define el documento como html-->
+
+<html lang="es"> <!--es el lenguaje estándar utilizado para estructurar-->
+
+<head><!--Encabezado-->
+    <meta charset="UTF-8"> <!--Sirve para mostrar caracteres variados-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Sirve para mostrar la pagina en celulares-->
+    <title>Tablas en HTML</title> <!--sirve para hacer que una página web sea responsiva-->
+</head> <!--Cierra en cabezado-->
+
+<body> <!--El cuerpo de la página-->
+    <h1>Tipos de tablas</h1> <!-- Título principal -->
+    <p>El objetivo fundamental de las tablas en HTML sera <!-- Párrafo -->
+        mostrar una serie de datos en forma ordenada, <!-- Texto -->
+        organizado en filas y columnas <!-- Texto -->
+    </p> <!-- Fin párrafo -->
+    <p>Para la creacion de una tabla intervienen diferentes elementos:</p> <!-- Párrafo -->
+    <dl> <!-- Inicio lista de descripción -->
+
+        <dt>Table</dt> <!-- Término a definir -->
+
+        <dd> <!-- Definición -->
+            Es la marca de comienzo de la tabla. Este elemento requiere <!-- Texto -->
+            la marca de cierre. <!-- Texto -->
+        </dd> <!-- Fin definición -->
+        <dt>Tr</dt> <!-- Término -->
+        <dd> <!-- Definición -->
+            Es la marca de comienzo de una fila. Esta marca debe estar <!-- Texto -->
+            dentro del elemento table <!-- Texto -->
+        </dd> <!-- Fin definición -->
+        <dt>Td</dt> <!-- Término -->
+        <dd> <!-- Definición -->
+            Es la marca de comeinzo de una celda. Esta marca debe estar <!-- Texto -->
+            dentro del elemento tr <!-- Texto -->
+        </dd> <!-- Fin definición -->
+    </dl> <!-- Fin lista de descripción -->
+    <h2>Ejemplo</h2> <!-- Subtítulo -->
+    <table border="1"> <!-- Tabla con borde -->
+        <tr> <!-- Fila 1 -->
+            <td>Ciudad de Mexico</td> <!-- Celda 1 -->
+            <td>9.2 millones</td> <!-- Celda 2 -->
+        </tr> <!-- Fin fila 1 -->
+        <tr> <!-- Fila 2 -->
+            <td>Guadalajara</td> <!-- Celda 1 -->
+            <td>4.1 millones</td> <!-- Celda 2 -->
+        </tr> <!-- Fin fila 2 -->
+        <tr> <!-- Fila 3 -->
+            <td>Monterrey</td> <!-- Celda 1 -->
+            <td>3.9 millones</td> <!-- Celda 2 -->
+        </tr> <!-- Fin fila 3 -->
+    </table> <!-- Fin tabla -->
+    <h2>Tabla con encabezado</h2> <!-- Subtítulo -->
+    <p>La caracteristicas de esta tabla es que se le agrega a las celdas <!-- Párrafo -->
+        el encabezado correspondiente, esto solo aplicaria a la primera <!-- Texto -->
+        fila de la tabla con la etiqueta <em>th</em>, las demas filas <!-- Texto con énfasis -->
+        usarian la etiqueta <em>td</em> con normalidad. <!-- Texto con énfasis -->
+    </p> <!-- Fin párrafo -->
+    <table border="1"> <!-- Tabla 2 -->
+        <tr> <!-- Fila de encabezado -->
+            <th>Ciudad</th> <!-- Encabezado 1 -->
+            <th>Cantidad de habitantes</th> <!-- Encabezado 2 -->
+        </tr> <!-- Fin fila -->
+        <tr> <!-- Fila 1 -->
+            <td>Ciudad de Mexico</td> <!-- Datos -->
+            <td>9.2 millones</td> <!-- Datos -->
+        </tr> <!-- Fin fila 1 -->
+        <tr> <!-- Fila 2 -->
+            <td>Guadalajara</td> <!-- Datos -->
+            <td>4.1 millones</td> <!-- Datos -->
+        </tr> <!-- Fin fila 2 -->
+        <tr> <!-- Fila 3 -->
+            <td>Monterrey</td> <!-- Datos -->
+            <td>3.9 millones</td> <!-- Datos -->
+        </tr> <!-- Fin fila 3 -->
+    </table> <!-- Fin tabla 2 -->
+    <h2>Tabla con titulo</h2> <!-- Subtítulo -->
+    <p>Para insertar un titulo a la tabla debemos incorporar el elemento caption <!-- Párrafo -->
+        inmediatamente despues de abrir la etiqueta <em>table</em>. <!-- Texto -->
+    </p> <!-- Fin párrafo -->
+    <table border="1"> <!-- Tabla 3 -->
+        <caption>Poblacion de las ciudades mas concurridas de Mexico</caption> <!-- Título de la tabla -->
+        <tr> <!-- Fila de encabezado -->
+            <th>Ciudad</th> <!-- Encabezado 1 -->
+            <th>Cantidad de habitantes</th> <!-- Encabezado 2 -->
+        </tr> <!-- Fin fila -->
+        <tr> <!-- Fila 1 -->
+            <td>Ciudad de Mexico</td> <!-- Datos -->
+            <td>9.2 millones</td> <!-- Datos -->
+        </tr> <!-- Fin fila 1 -->
+        <tr> <!-- Fila 2 -->
+            <td>Guadalajara</td> <!-- Datos -->
+            <td>4.1 millones</td> <!-- Datos -->
+        </tr> <!-- Fin fila 2 -->
+        <tr> <!-- Fila 3 -->
+            <td>Monterrey</td> <!-- Datos -->
+            <td>3.9 millones</td> <!-- Datos -->
+        </tr> <!-- Fin fila 3 -->
+    </table> <!-- Fin tabla 3 -->
+</body> <!-- Fin contenido -->
+
+</html> <!-- Fin del documento -->
+
+</html> <!-- Cierra la etiqueta raíz del documento HTML -->
